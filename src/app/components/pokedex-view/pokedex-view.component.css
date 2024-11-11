@@ -1,0 +1,111 @@
+.pokedex-view{
+    position:relative;
+    height: 100vh;
+    width:365px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content:center;
+    background-color:rgb(112, 48, 216);
+    padding:10px;
+    overflow:hidden;
+    gap:10px;
+}
+.container{
+position:relative;
+width:90%;
+height:260px;
+display:flex;
+flex-direction:column;
+align-items:center;
+justify-content:center;
+background-color:rgb(202, 107, 211);
+}
+
+.pokemon{
+border-top-left-radius:50px;
+
+}
+
+.graph{
+    border-bottom-right-radius:50px;
+}
+
+
+
+.point:nth-child(1){
+    left:calc(50% + 20px);
+}
+.point:nth-child(2){
+
+    right:calc(50% - 20px);
+}
+
+
+
+.white-circle{
+    position:absolute;
+
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-input {
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 200px; /* Ajusta el ancho según sea necesario */
+  }
+  
+  .search-button {
+    background-color: #e1cbeb; /* Azul */
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 1px solid black;
+  }
+
+  .stats-container{
+    border-top: 30px;
+    border-left: 30px;
+    border-bottom: 30px;
+  }
+
+  .button-container {
+    display: flex;
+    justify-content: center; /* Centra los botones horizontalmente */
+    margin-top: 20px;
+  }
+
+  .attack-button, .heal-button {
+    padding: 15px 30px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .attack-button {
+    background: linear-gradient(to right, #d15ec2, #9b1289);
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .attack-button:hover {
+    background: linear-gradient(to right, #adecec, #adecec);
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.2);
+  }
+  
+  .heal-button {
+    background: linear-gradient(to right, #bd98d6, #8f44c2);
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .heal-button:hover {
+    background: linear-gradient(to right, #afdfc7, #afdfc7);
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.2);
+  }
